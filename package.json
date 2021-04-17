@@ -1,7 +1,7 @@
 {
   "name": "@mood/navbar",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --host 0.0.0.0 --port 9001",
     "start:standalone": "webpack serve --env standalone",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",

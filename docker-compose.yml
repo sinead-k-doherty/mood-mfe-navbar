@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  navbar:
+    build: .
+    volumes:
+      - ./:/navbar
+    ports:
+      - 9001:9001
+    command: ["yarn", "start"]
